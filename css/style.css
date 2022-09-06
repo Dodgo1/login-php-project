@@ -1,0 +1,236 @@
+:root{
+  --buttons-color: #25D0BC;
+  --background-color:#DCEDFF ;
+  --foreground-color:#2D3047 ;
+  --logo-color:#FFF07C ;
+}
+
+html{
+  background-color: var(--background-color);
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  font-family: 'Open Sans', serif;
+  font-size: 20px;
+}
+
+/* HEAD */
+.header{
+   display: flex;
+   background: var(--foreground-color);
+   border-style:solid ;
+   padding: 5px;
+   border-radius: 0px 0px 20px 20px;
+   width: 100%;
+}
+
+
+.hbuttons{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.hbuttons > *{
+  padding: 25px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.img_logo{
+width:140px;
+height:100px;
+}
+
+.hlogo{
+  background-color: var(--logo-color) ;
+  padding: 25px;
+  margin:5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.helement1{
+color: white;
+}
+.helement1:hover{
+color: black;
+background-color: white;
+}
+
+.helement2{
+color: white;
+}
+.helement2:hover{
+color: black;
+background-color: white;
+}
+
+
+.helement3{
+color: white;
+}
+.helement3:hover{
+color: black;
+background-color: white;
+}
+
+
+
+/* BODY */
+.main{
+  display: flex;
+  margin-top: 40px;
+  border-style: dotted;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.main1{
+  display: flex;
+  margin-top: 40px;
+  border-style: dotted;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.main > a{
+background-color: var(--buttons-color);
+border: none;
+color: #2D3047;
+padding: 100px 39px;
+text-align: center;
+text-decoration: none;
+margin: 8px 6px;
+cursor: pointer;
+}
+
+
+
+.a1{
+  /* color: red; */
+}
+
+
+.a2{
+  /* color: orange; */
+}
+
+
+.a3{
+  /* color: green; */
+}
+
+
+.a4{
+  /* color: blue; */
+}
+
+/* ---SIGNUP PAGE--- */
+.div_signup_sign{
+  display: flex;
+  justify-content: center;
+}
+
+.signup_sign{
+  font-size: 35px;
+  padding: 5px;
+}
+
+.signup_section{
+margin: auto;
+width: 60%;
+/* border: 5px solid #FFFF00; */
+padding: 10px;
+}
+.form{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.form > *{
+  width: 200px;
+}
+
+.error_div{
+  display: flex;
+  height: 30px;
+  width: 100%;
+  align-items: center;
+}
+.error_message{
+  height: auto;
+  width: 100%;
+  background-color: white;
+  border-style: dotted;
+  border-width: 1px;
+  text-align: center;
+}
+
+/* user index */
+.main_user{
+display:block;
+
+}
+
+.instruction{
+
+}
+
+.user_list_item{
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display:flex;
+}
+
+.time_stamp{
+ text-align: left;
+}
+
+.file_download_link:hover{
+  width:100%;
+  background-color: var(--foreground-color);
+  color: white;
+  text-decoration:none;
+}
+
+.file_download_link{
+  width:100%;
+  text-decoration:none;
+  display: block;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.file_download_link:visited {
+  width:100%;
+  border-style: dotted;
+  text-decoration:none;
+  display: block;
+  color: white;
+  font-weight:lighter;
+  border: 1px;
+  border-style: solid;
+}
+
+.footer{
+  display:grid;
+  grid-auto-flow: column;
+  position:fixed;
+  background-color:#2D3047 ;
+  width: 100%;
+  height: auto;
+  left: 0;
+  bottom: 0;
+
+}

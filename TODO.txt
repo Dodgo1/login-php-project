@@ -1,0 +1,5 @@
+1.stópka
+2.specjalne znaki w loginie (jako tako juz)
+3.wyglad strony uzytkownika
+4.logo
+5.folder zabezpiecznia
